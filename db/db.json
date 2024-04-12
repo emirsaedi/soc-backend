@@ -1,0 +1,4210 @@
+{
+  "events": [
+    {
+      "id": "66088117aefbbeebc422b22a",
+      "severity": "high",
+      "destination": "server1",
+      "source": "application",
+      "type": "failed_login",
+      "timestamp": "2023-03-11T18:29:15.087Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b22b",
+      "severity": "high",
+      "destination": "server2",
+      "source": "server3",
+      "type": "virus_scan_failure",
+      "timestamp": "2023-01-07T01:10:56.298Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b22c",
+      "severity": "medium",
+      "destination": "server1",
+      "source": "server2",
+      "type": "failed_login",
+      "timestamp": "2023-05-27T13:14:06.573Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b22d",
+      "severity": "low",
+      "destination": "server3",
+      "source": "server2",
+      "type": "virus_scan_failure",
+      "timestamp": "2023-10-05T15:44:44.018Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b22e",
+      "severity": "low",
+      "destination": "internal_application",
+      "source": "server3",
+      "type": "virus_scan_failure",
+      "timestamp": "2023-01-19T21:37:30.814Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b22f",
+      "severity": "medium",
+      "destination": "server2",
+      "source": "server3",
+      "type": "malware_detection",
+      "timestamp": "2023-09-24T18:50:44.618Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b230",
+      "severity": "low",
+      "destination": "server2",
+      "source": "server2",
+      "type": "successful_login",
+      "timestamp": "2023-11-19T13:43:13.317Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b231",
+      "severity": "high",
+      "destination": "server2",
+      "source": "endpoint2",
+      "type": "virus_scan_failure",
+      "timestamp": "2024-01-18T14:30:29.820Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b232",
+      "severity": "high",
+      "destination": "server3",
+      "source": "endpoint2",
+      "type": "successful_login",
+      "timestamp": "2024-03-05T15:39:08.847Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b233",
+      "severity": "medium",
+      "destination": "server3",
+      "source": "firewall",
+      "type": "malware_detection",
+      "timestamp": "2023-05-30T12:32:07.281Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b234",
+      "severity": "high",
+      "destination": "server1",
+      "source": "application",
+      "type": "malware_detection",
+      "timestamp": "2023-05-28T13:43:13.392Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b235",
+      "severity": "medium",
+      "destination": "domain_controller",
+      "source": "server3",
+      "type": "failed_login",
+      "timestamp": "2023-07-09T17:34:54.727Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b236",
+      "severity": "medium",
+      "destination": "server3",
+      "source": "server3",
+      "type": "virus_scan_failure",
+      "timestamp": "2023-01-05T18:47:18.692Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b237",
+      "severity": "low",
+      "destination": "server3",
+      "source": "server2",
+      "type": "virus_scan_failure",
+      "timestamp": "2024-02-20T17:50:04.161Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b238",
+      "severity": "high",
+      "destination": "server2",
+      "source": "firewall",
+      "type": "failed_login",
+      "timestamp": "2023-06-12T20:10:34.199Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b239",
+      "severity": "low",
+      "destination": "internal_application",
+      "source": "application",
+      "type": "successful_login",
+      "timestamp": "2023-04-23T15:25:17.387Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b23a",
+      "severity": "high",
+      "destination": "internal_application",
+      "source": "firewall",
+      "type": "virus_scan_failure",
+      "timestamp": "2023-09-07T00:29:32.505Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b23b",
+      "severity": "medium",
+      "destination": "server3",
+      "source": "server2",
+      "type": "virus_scan_failure",
+      "timestamp": "2023-01-26T03:06:23.314Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b23c",
+      "severity": "high",
+      "destination": "internal_application",
+      "source": "endpoint1",
+      "type": "virus_scan_failure",
+      "timestamp": "2024-03-08T18:45:50.300Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b23d",
+      "severity": "low",
+      "destination": "server3",
+      "source": "endpoint1",
+      "type": "successful_login",
+      "timestamp": "2023-09-25T13:15:11.755Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b23e",
+      "severity": "low",
+      "destination": "server3",
+      "source": "endpoint2",
+      "type": "virus_scan_failure",
+      "timestamp": "2024-02-29T09:44:02.111Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b23f",
+      "severity": "medium",
+      "destination": "server3",
+      "source": "server2",
+      "type": "successful_login",
+      "timestamp": "2023-11-13T13:51:52.979Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b240",
+      "severity": "low",
+      "destination": "internal_application",
+      "source": "application",
+      "type": "failed_login",
+      "timestamp": "2024-02-14T16:46:04.778Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b241",
+      "severity": "low",
+      "destination": "server2",
+      "source": "endpoint1",
+      "type": "successful_login",
+      "timestamp": "2023-09-19T17:59:01.839Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b242",
+      "severity": "low",
+      "destination": "server3",
+      "source": "application",
+      "type": "failed_login",
+      "timestamp": "2023-12-18T19:45:06.954Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b243",
+      "severity": "low",
+      "destination": "domain_controller",
+      "source": "server1",
+      "type": "virus_scan_failure",
+      "timestamp": "2023-05-19T00:17:18.084Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b244",
+      "severity": "high",
+      "destination": "domain_controller",
+      "source": "server3",
+      "type": "virus_scan_failure",
+      "timestamp": "2023-06-06T08:46:50.618Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b245",
+      "severity": "medium",
+      "destination": "server2",
+      "source": "application",
+      "type": "malware_detection",
+      "timestamp": "2023-10-18T06:44:40.228Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b246",
+      "severity": "high",
+      "destination": "server3",
+      "source": "server3",
+      "type": "malware_detection",
+      "timestamp": "2023-03-20T12:03:38.351Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b247",
+      "severity": "high",
+      "destination": "server1",
+      "source": "endpoint1",
+      "type": "failed_login",
+      "timestamp": "2023-11-06T14:46:16.965Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b248",
+      "severity": "low",
+      "destination": "domain_controller",
+      "source": "firewall",
+      "type": "successful_login",
+      "timestamp": "2024-01-04T22:45:30.509Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b249",
+      "severity": "medium",
+      "destination": "domain_controller",
+      "source": "server3",
+      "type": "virus_scan_failure",
+      "timestamp": "2023-10-30T21:06:16.367Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b24a",
+      "severity": "medium",
+      "destination": "server3",
+      "source": "endpoint1",
+      "type": "virus_scan_failure",
+      "timestamp": "2023-12-17T19:13:19.888Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b24b",
+      "severity": "medium",
+      "destination": "server3",
+      "source": "server2",
+      "type": "failed_login",
+      "timestamp": "2023-02-12T03:47:55.538Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b24c",
+      "severity": "medium",
+      "destination": "server1",
+      "source": "endpoint2",
+      "type": "malware_detection",
+      "timestamp": "2023-11-20T20:00:12.276Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b24d",
+      "severity": "low",
+      "destination": "domain_controller",
+      "source": "endpoint2",
+      "type": "successful_login",
+      "timestamp": "2023-03-31T21:12:46.589Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b24e",
+      "severity": "low",
+      "destination": "server1",
+      "source": "server3",
+      "type": "virus_scan_failure",
+      "timestamp": "2023-10-05T17:45:26.296Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b24f",
+      "severity": "high",
+      "destination": "server3",
+      "source": "server2",
+      "type": "malware_detection",
+      "timestamp": "2024-01-10T10:24:38.986Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b250",
+      "severity": "low",
+      "destination": "internal_application",
+      "source": "endpoint1",
+      "type": "failed_login",
+      "timestamp": "2023-12-12T16:33:03.993Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b251",
+      "severity": "high",
+      "destination": "server3",
+      "source": "server3",
+      "type": "failed_login",
+      "timestamp": "2023-11-02T03:42:37.239Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b252",
+      "severity": "high",
+      "destination": "server1",
+      "source": "server3",
+      "type": "failed_login",
+      "timestamp": "2024-01-03T22:07:21.766Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b253",
+      "severity": "low",
+      "destination": "server1",
+      "source": "endpoint1",
+      "type": "virus_scan_failure",
+      "timestamp": "2023-09-10T21:51:45.510Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b254",
+      "severity": "low",
+      "destination": "internal_application",
+      "source": "firewall",
+      "type": "malware_detection",
+      "timestamp": "2024-02-24T11:34:01.456Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b255",
+      "severity": "high",
+      "destination": "internal_application",
+      "source": "server2",
+      "type": "malware_detection",
+      "timestamp": "2023-05-11T20:05:20.482Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b256",
+      "severity": "high",
+      "destination": "server1",
+      "source": "server2",
+      "type": "virus_scan_failure",
+      "timestamp": "2023-01-03T07:01:55.245Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b257",
+      "severity": "medium",
+      "destination": "server3",
+      "source": "endpoint1",
+      "type": "malware_detection",
+      "timestamp": "2023-01-03T13:48:26.343Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b258",
+      "severity": "high",
+      "destination": "internal_application",
+      "source": "firewall",
+      "type": "failed_login",
+      "timestamp": "2024-02-10T19:25:57.252Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b259",
+      "severity": "low",
+      "destination": "server3",
+      "source": "endpoint1",
+      "type": "successful_login",
+      "timestamp": "2023-10-25T11:02:28.837Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b25a",
+      "severity": "high",
+      "destination": "internal_application",
+      "source": "firewall",
+      "type": "successful_login",
+      "timestamp": "2023-10-04T03:07:55.165Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b25b",
+      "severity": "low",
+      "destination": "domain_controller",
+      "source": "server3",
+      "type": "successful_login",
+      "timestamp": "2023-06-21T18:27:20.861Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b25c",
+      "severity": "high",
+      "destination": "internal_application",
+      "source": "firewall",
+      "type": "virus_scan_failure",
+      "timestamp": "2023-02-15T14:13:28.436Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b25d",
+      "severity": "medium",
+      "destination": "server2",
+      "source": "server2",
+      "type": "malware_detection",
+      "timestamp": "2023-05-20T00:55:39.623Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b25e",
+      "severity": "medium",
+      "destination": "server2",
+      "source": "server3",
+      "type": "virus_scan_failure",
+      "timestamp": "2023-07-14T14:22:36.661Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b25f",
+      "severity": "low",
+      "destination": "internal_application",
+      "source": "endpoint2",
+      "type": "virus_scan_failure",
+      "timestamp": "2023-12-15T13:38:57.138Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b260",
+      "severity": "low",
+      "destination": "domain_controller",
+      "source": "firewall",
+      "type": "virus_scan_failure",
+      "timestamp": "2023-10-26T06:01:14.005Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b261",
+      "severity": "medium",
+      "destination": "server1",
+      "source": "server1",
+      "type": "successful_login",
+      "timestamp": "2023-12-30T08:07:37.579Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b262",
+      "severity": "low",
+      "destination": "server1",
+      "source": "firewall",
+      "type": "malware_detection",
+      "timestamp": "2023-03-03T18:08:23.948Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b263",
+      "severity": "medium",
+      "destination": "domain_controller",
+      "source": "endpoint2",
+      "type": "malware_detection",
+      "timestamp": "2023-06-22T23:47:02.500Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b264",
+      "severity": "low",
+      "destination": "server2",
+      "source": "server2",
+      "type": "virus_scan_failure",
+      "timestamp": "2023-06-28T07:10:24.288Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b265",
+      "severity": "low",
+      "destination": "internal_application",
+      "source": "server1",
+      "type": "failed_login",
+      "timestamp": "2023-08-29T04:24:49.439Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b266",
+      "severity": "high",
+      "destination": "server1",
+      "source": "firewall",
+      "type": "virus_scan_failure",
+      "timestamp": "2023-05-13T20:09:03.780Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b267",
+      "severity": "low",
+      "destination": "server1",
+      "source": "endpoint2",
+      "type": "virus_scan_failure",
+      "timestamp": "2023-06-03T04:12:14.101Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b268",
+      "severity": "medium",
+      "destination": "server2",
+      "source": "endpoint2",
+      "type": "successful_login",
+      "timestamp": "2023-01-03T19:24:29.014Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b269",
+      "severity": "low",
+      "destination": "domain_controller",
+      "source": "endpoint2",
+      "type": "virus_scan_failure",
+      "timestamp": "2023-02-07T12:53:28.617Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b26a",
+      "severity": "medium",
+      "destination": "server1",
+      "source": "firewall",
+      "type": "malware_detection",
+      "timestamp": "2023-08-02T00:43:13.378Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b26b",
+      "severity": "low",
+      "destination": "server3",
+      "source": "endpoint2",
+      "type": "malware_detection",
+      "timestamp": "2023-08-14T03:22:28.119Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b26c",
+      "severity": "high",
+      "destination": "server2",
+      "source": "server1",
+      "type": "failed_login",
+      "timestamp": "2024-02-09T17:16:06.260Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b26d",
+      "severity": "medium",
+      "destination": "server1",
+      "source": "endpoint2",
+      "type": "virus_scan_failure",
+      "timestamp": "2023-11-21T07:02:11.644Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b26e",
+      "severity": "low",
+      "destination": "server1",
+      "source": "firewall",
+      "type": "virus_scan_failure",
+      "timestamp": "2023-05-06T02:44:11.772Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b26f",
+      "severity": "low",
+      "destination": "domain_controller",
+      "source": "server2",
+      "type": "malware_detection",
+      "timestamp": "2023-10-28T06:09:18.764Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b270",
+      "severity": "low",
+      "destination": "server3",
+      "source": "server1",
+      "type": "malware_detection",
+      "timestamp": "2023-04-20T04:58:38.016Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b271",
+      "severity": "high",
+      "destination": "internal_application",
+      "source": "server1",
+      "type": "virus_scan_failure",
+      "timestamp": "2023-12-02T23:26:05.617Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b272",
+      "severity": "medium",
+      "destination": "domain_controller",
+      "source": "server1",
+      "type": "failed_login",
+      "timestamp": "2023-03-06T12:01:47.017Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b273",
+      "severity": "high",
+      "destination": "server2",
+      "source": "server1",
+      "type": "successful_login",
+      "timestamp": "2023-03-24T16:24:39.688Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b274",
+      "severity": "high",
+      "destination": "server2",
+      "source": "server1",
+      "type": "failed_login",
+      "timestamp": "2024-03-28T14:48:23.903Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b275",
+      "severity": "high",
+      "destination": "server1",
+      "source": "server3",
+      "type": "failed_login",
+      "timestamp": "2023-03-11T16:06:05.556Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b276",
+      "severity": "medium",
+      "destination": "internal_application",
+      "source": "server2",
+      "type": "malware_detection",
+      "timestamp": "2023-05-09T23:30:22.537Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b277",
+      "severity": "high",
+      "destination": "server3",
+      "source": "server1",
+      "type": "successful_login",
+      "timestamp": "2023-08-26T16:16:03.292Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b278",
+      "severity": "medium",
+      "destination": "server3",
+      "source": "server1",
+      "type": "failed_login",
+      "timestamp": "2024-02-12T18:42:32.179Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b279",
+      "severity": "high",
+      "destination": "internal_application",
+      "source": "endpoint1",
+      "type": "successful_login",
+      "timestamp": "2023-05-07T21:47:11.661Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b27a",
+      "severity": "low",
+      "destination": "domain_controller",
+      "source": "endpoint1",
+      "type": "malware_detection",
+      "timestamp": "2023-07-28T20:55:50.125Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b27b",
+      "severity": "low",
+      "destination": "domain_controller",
+      "source": "server2",
+      "type": "failed_login",
+      "timestamp": "2023-11-02T17:52:52.257Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b27c",
+      "severity": "medium",
+      "destination": "server1",
+      "source": "endpoint2",
+      "type": "successful_login",
+      "timestamp": "2023-02-13T02:45:00.061Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b27d",
+      "severity": "high",
+      "destination": "server1",
+      "source": "firewall",
+      "type": "failed_login",
+      "timestamp": "2023-01-02T20:29:02.618Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b27e",
+      "severity": "low",
+      "destination": "server3",
+      "source": "server2",
+      "type": "failed_login",
+      "timestamp": "2023-01-24T20:45:16.042Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b27f",
+      "severity": "high",
+      "destination": "server3",
+      "source": "server1",
+      "type": "virus_scan_failure",
+      "timestamp": "2023-08-11T16:36:59.859Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b280",
+      "severity": "medium",
+      "destination": "domain_controller",
+      "source": "endpoint1",
+      "type": "malware_detection",
+      "timestamp": "2023-01-05T04:55:45.799Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b281",
+      "severity": "low",
+      "destination": "server3",
+      "source": "server2",
+      "type": "virus_scan_failure",
+      "timestamp": "2023-07-04T08:44:26.645Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b282",
+      "severity": "low",
+      "destination": "internal_application",
+      "source": "server2",
+      "type": "failed_login",
+      "timestamp": "2023-07-17T05:45:57.664Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b283",
+      "severity": "high",
+      "destination": "server1",
+      "source": "server2",
+      "type": "malware_detection",
+      "timestamp": "2023-07-20T16:57:15.422Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b284",
+      "severity": "low",
+      "destination": "server1",
+      "source": "endpoint1",
+      "type": "malware_detection",
+      "timestamp": "2023-01-12T18:39:21.025Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b285",
+      "severity": "medium",
+      "destination": "server2",
+      "source": "server1",
+      "type": "successful_login",
+      "timestamp": "2023-03-03T07:26:50.847Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b286",
+      "severity": "low",
+      "destination": "server2",
+      "source": "firewall",
+      "type": "virus_scan_failure",
+      "timestamp": "2023-03-22T02:27:54.159Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b287",
+      "severity": "medium",
+      "destination": "internal_application",
+      "source": "endpoint2",
+      "type": "malware_detection",
+      "timestamp": "2023-06-11T06:49:55.041Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b288",
+      "severity": "low",
+      "destination": "server2",
+      "source": "server1",
+      "type": "malware_detection",
+      "timestamp": "2024-01-16T23:20:22.159Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b289",
+      "severity": "high",
+      "destination": "domain_controller",
+      "source": "server2",
+      "type": "failed_login",
+      "timestamp": "2023-05-01T23:22:28.301Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b28a",
+      "severity": "high",
+      "destination": "server3",
+      "source": "server3",
+      "type": "malware_detection",
+      "timestamp": "2023-01-01T08:05:16.093Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b28b",
+      "severity": "low",
+      "destination": "domain_controller",
+      "source": "server1",
+      "type": "successful_login",
+      "timestamp": "2023-03-26T19:08:46.776Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b28c",
+      "severity": "high",
+      "destination": "internal_application",
+      "source": "server2",
+      "type": "malware_detection",
+      "timestamp": "2023-02-15T10:45:30.766Z"
+    },
+    {
+      "id": "66088117aefbbeebc422b28d",
+      "severity": "high",
+      "destination": "server3",
+      "source": "firewall",
+      "type": "successful_login",
+      "timestamp": "2023-09-23T20:38:39.080Z"
+    }
+  ],
+
+  "systems": [
+    {
+      "id": "66088b58aefbbeebc422b28e",
+      "type": "desktop",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 83,
+        "cores": "2"
+      },
+      "memoryUsage": {
+        "percentage": 59,
+        "total": "16",
+        "used": 0.18,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 202,
+        "percentage": 16,
+        "unit": "GB"
+      },
+      "ip_address": "69.114.26.227",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Development Laptop",
+      "os": "Ubuntu 18.04 LTS"
+    },
+    {
+      "id": "66088b58aefbbeebc422b28f",
+      "type": "web_server",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 19,
+        "cores": "4"
+      },
+      "memoryUsage": {
+        "percentage": 29,
+        "total": "8",
+        "used": 3.54,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 358,
+        "percentage": 6,
+        "unit": "GB"
+      },
+      "ip_address": "130.129.62.10",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Database Server 1",
+      "os": "Ubuntu 18.04 LTS"
+    },
+    {
+      "id": "66088b58aefbbeebc422b290",
+      "type": "desktop",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 35,
+        "cores": "2"
+      },
+      "memoryUsage": {
+        "percentage": 54,
+        "total": "8",
+        "used": 11,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 302,
+        "percentage": 26,
+        "unit": "GB"
+      },
+      "ip_address": "15.61.110.114",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "IoT Device 1",
+      "os": "Windows 11"
+    },
+    {
+      "id": "66088b58aefbbeebc422b291",
+      "type": "iot",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 60,
+        "cores": "4"
+      },
+      "memoryUsage": {
+        "percentage": 87,
+        "total": "8",
+        "used": 4.31,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 320,
+        "percentage": 100,
+        "unit": "GB"
+      },
+      "ip_address": "85.176.199.60",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Database Server 2",
+      "os": "Ubuntu 18.04 LTS"
+    },
+    {
+      "id": "66088b58aefbbeebc422b292",
+      "type": "desktop",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 2,
+        "cores": "2"
+      },
+      "memoryUsage": {
+        "percentage": 1,
+        "total": "8",
+        "used": 14.35,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 204,
+        "percentage": 72,
+        "unit": "GB"
+      },
+      "ip_address": "99.172.247.165",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Database Server 2",
+      "os": "Linux"
+    },
+    {
+      "id": "66088b58aefbbeebc422b293",
+      "type": "database",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 43,
+        "cores": "4"
+      },
+      "memoryUsage": {
+        "percentage": 98,
+        "total": "16",
+        "used": 19.95,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 352,
+        "percentage": 8,
+        "unit": "GB"
+      },
+      "ip_address": "215.10.103.199",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "IoT Device 1",
+      "os": "Ubuntu 18.04 LTS"
+    },
+    {
+      "id": "66088b58aefbbeebc422b294",
+      "type": "desktop",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 84,
+        "cores": "4"
+      },
+      "memoryUsage": {
+        "percentage": 20,
+        "total": "4",
+        "used": 15.14,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 531,
+        "percentage": 46,
+        "unit": "GB"
+      },
+      "ip_address": "236.204.130.78",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Database Server 1",
+      "os": "CentOS 7"
+    },
+    {
+      "id": "66088b58aefbbeebc422b295",
+      "type": "database",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 39,
+        "cores": "6"
+      },
+      "memoryUsage": {
+        "percentage": 11,
+        "total": "32",
+        "used": 15.21,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 373,
+        "percentage": 10,
+        "unit": "GB"
+      },
+      "ip_address": "68.184.161.93",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Development Laptop",
+      "os": "Windows 8"
+    },
+    {
+      "id": "66088b58aefbbeebc422b296",
+      "type": "web_server",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 23,
+        "cores": "6"
+      },
+      "memoryUsage": {
+        "percentage": 77,
+        "total": "16",
+        "used": 16.92,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 258,
+        "percentage": 31,
+        "unit": "GB"
+      },
+      "ip_address": "56.33.168.43",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Development Laptop",
+      "os": "Linux"
+    },
+    {
+      "id": "66088b58aefbbeebc422b297",
+      "type": "desktop",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 2,
+        "cores": "4"
+      },
+      "memoryUsage": {
+        "percentage": 2,
+        "total": "16",
+        "used": 16.13,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 448,
+        "percentage": 52,
+        "unit": "GB"
+      },
+      "ip_address": "33.226.189.23",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "IoT Device 1",
+      "os": "Windows 8"
+    },
+    {
+      "id": "66088b58aefbbeebc422b298",
+      "type": "desktop",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 85,
+        "cores": "4"
+      },
+      "memoryUsage": {
+        "percentage": 12,
+        "total": "8",
+        "used": 1.48,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 33,
+        "percentage": 83,
+        "unit": "GB"
+      },
+      "ip_address": "32.210.118.146",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Web Server 1",
+      "os": "Windows 8"
+    },
+    {
+      "id": "66088b58aefbbeebc422b299",
+      "type": "iot",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 84,
+        "cores": "6"
+      },
+      "memoryUsage": {
+        "percentage": 39,
+        "total": "8",
+        "used": 13.98,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 526,
+        "percentage": 92,
+        "unit": "GB"
+      },
+      "ip_address": "173.201.156.235",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Development Laptop",
+      "os": "Ubuntu 18.04 LTS"
+    },
+    {
+      "id": "66088b58aefbbeebc422b29a",
+      "type": "desktop",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 23,
+        "cores": "4"
+      },
+      "memoryUsage": {
+        "percentage": 34,
+        "total": "32",
+        "used": 4.72,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 162,
+        "percentage": 76,
+        "unit": "GB"
+      },
+      "ip_address": "31.159.170.225",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "IoT Device 1",
+      "os": "CentOS 7"
+    },
+    {
+      "id": "66088b58aefbbeebc422b29b",
+      "type": "desktop",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 89,
+        "cores": "4"
+      },
+      "memoryUsage": {
+        "percentage": 57,
+        "total": "16",
+        "used": 11.8,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 543,
+        "percentage": 78,
+        "unit": "GB"
+      },
+      "ip_address": "181.137.17.166",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Database Server 1",
+      "os": "Linux"
+    },
+    {
+      "id": "66088b58aefbbeebc422b29c",
+      "type": "iot",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 92,
+        "cores": "4"
+      },
+      "memoryUsage": {
+        "percentage": 62,
+        "total": "32",
+        "used": 13.19,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 482,
+        "percentage": 27,
+        "unit": "GB"
+      },
+      "ip_address": "44.222.187.50",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Web Server 1",
+      "os": "Ubuntu 18.04 LTS"
+    },
+    {
+      "id": "66088b58aefbbeebc422b29d",
+      "type": "desktop",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 89,
+        "cores": "6"
+      },
+      "memoryUsage": {
+        "percentage": 97,
+        "total": "16",
+        "used": 4.56,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 542,
+        "percentage": 1,
+        "unit": "GB"
+      },
+      "ip_address": "173.233.162.121",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Web Server 2",
+      "os": "Ubuntu 18.04 LTS"
+    },
+    {
+      "id": "66088b58aefbbeebc422b29e",
+      "type": "database",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 85,
+        "cores": "2"
+      },
+      "memoryUsage": {
+        "percentage": 29,
+        "total": "4",
+        "used": 14.76,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 498,
+        "percentage": 33,
+        "unit": "GB"
+      },
+      "ip_address": "207.147.231.69",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Web Server 1",
+      "os": "Ubuntu 20.04 LTS"
+    },
+    {
+      "id": "66088b58aefbbeebc422b29f",
+      "type": "web_server",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 96,
+        "cores": "2"
+      },
+      "memoryUsage": {
+        "percentage": 11,
+        "total": "32",
+        "used": 17.98,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 214,
+        "percentage": 21,
+        "unit": "GB"
+      },
+      "ip_address": "91.7.210.88",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Web Server 1",
+      "os": "Ubuntu 20.04 LTS"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2a0",
+      "type": "web_server",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 35,
+        "cores": "4"
+      },
+      "memoryUsage": {
+        "percentage": 99,
+        "total": "16",
+        "used": 1.44,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 548,
+        "percentage": 34,
+        "unit": "GB"
+      },
+      "ip_address": "124.57.222.79",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "IoT Device 2",
+      "os": "CentOS 8"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2a1",
+      "type": "iot",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 91,
+        "cores": "2"
+      },
+      "memoryUsage": {
+        "percentage": 26,
+        "total": "16",
+        "used": 8.75,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 195,
+        "percentage": 42,
+        "unit": "GB"
+      },
+      "ip_address": "59.57.117.159",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Development Laptop",
+      "os": "Linux"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2a2",
+      "type": "web_server",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 72,
+        "cores": "4"
+      },
+      "memoryUsage": {
+        "percentage": 37,
+        "total": "16",
+        "used": 19.91,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 547,
+        "percentage": 16,
+        "unit": "GB"
+      },
+      "ip_address": "186.127.73.187",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Database Server 1",
+      "os": "Windows 7"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2a3",
+      "type": "desktop",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 51,
+        "cores": "6"
+      },
+      "memoryUsage": {
+        "percentage": 56,
+        "total": "32",
+        "used": 3,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 230,
+        "percentage": 36,
+        "unit": "GB"
+      },
+      "ip_address": "126.186.86.155",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Web Server 1",
+      "os": "CentOS 8"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2a4",
+      "type": "desktop",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 99,
+        "cores": "6"
+      },
+      "memoryUsage": {
+        "percentage": 40,
+        "total": "4",
+        "used": 11.9,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 296,
+        "percentage": 43,
+        "unit": "GB"
+      },
+      "ip_address": "110.139.73.35",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "IoT Device 1",
+      "os": "Linux"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2a5",
+      "type": "iot",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 8,
+        "cores": "2"
+      },
+      "memoryUsage": {
+        "percentage": 40,
+        "total": "16",
+        "used": 2.71,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 340,
+        "percentage": 75,
+        "unit": "GB"
+      },
+      "ip_address": "84.10.183.106",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "IoT Device 2",
+      "os": "Windows 8"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2a6",
+      "type": "iot",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 68,
+        "cores": "4"
+      },
+      "memoryUsage": {
+        "percentage": 96,
+        "total": "8",
+        "used": 11.47,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 361,
+        "percentage": 61,
+        "unit": "GB"
+      },
+      "ip_address": "94.176.241.11",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Development Laptop",
+      "os": "CentOS 8"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2a7",
+      "type": "web_server",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 16,
+        "cores": "6"
+      },
+      "memoryUsage": {
+        "percentage": 18,
+        "total": "32",
+        "used": 11.17,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 536,
+        "percentage": 99,
+        "unit": "GB"
+      },
+      "ip_address": "169.147.84.249",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Database Server 2",
+      "os": "Ubuntu 20.04 LTS"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2a8",
+      "type": "database",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 8,
+        "cores": "2"
+      },
+      "memoryUsage": {
+        "percentage": 68,
+        "total": "32",
+        "used": 17.32,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 289,
+        "percentage": 6,
+        "unit": "GB"
+      },
+      "ip_address": "110.86.191.70",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Web Server 1",
+      "os": "Ubuntu 20.04 LTS"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2a9",
+      "type": "database",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 61,
+        "cores": "4"
+      },
+      "memoryUsage": {
+        "percentage": 11,
+        "total": "4",
+        "used": 16.32,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 113,
+        "percentage": 84,
+        "unit": "GB"
+      },
+      "ip_address": "52.125.117.209",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Web Server 2",
+      "os": "Ubuntu 20.04 LTS"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2aa",
+      "type": "iot",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 89,
+        "cores": "4"
+      },
+      "memoryUsage": {
+        "percentage": 27,
+        "total": "32",
+        "used": 16.18,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 20,
+        "percentage": 23,
+        "unit": "GB"
+      },
+      "ip_address": "138.8.184.26",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Development Laptop",
+      "os": "Ubuntu 20.04 LTS"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2ab",
+      "type": "iot",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 52,
+        "cores": "2"
+      },
+      "memoryUsage": {
+        "percentage": 81,
+        "total": "32",
+        "used": 10.98,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 175,
+        "percentage": 42,
+        "unit": "GB"
+      },
+      "ip_address": "183.158.252.201",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Database Server 1",
+      "os": "Windows 8"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2ac",
+      "type": "web_server",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 22,
+        "cores": "4"
+      },
+      "memoryUsage": {
+        "percentage": 5,
+        "total": "32",
+        "used": 16.29,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 79,
+        "percentage": 94,
+        "unit": "GB"
+      },
+      "ip_address": "45.201.211.140",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "IoT Device 2",
+      "os": "Ubuntu 18.04 LTS"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2ad",
+      "type": "database",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 70,
+        "cores": "6"
+      },
+      "memoryUsage": {
+        "percentage": 19,
+        "total": "32",
+        "used": 10.43,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 148,
+        "percentage": 76,
+        "unit": "GB"
+      },
+      "ip_address": "23.208.145.167",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Development Laptop",
+      "os": "Ubuntu 18.04 LTS"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2ae",
+      "type": "web_server",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 21,
+        "cores": "6"
+      },
+      "memoryUsage": {
+        "percentage": 35,
+        "total": "32",
+        "used": 17.14,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 48,
+        "percentage": 79,
+        "unit": "GB"
+      },
+      "ip_address": "200.150.0.202",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Development Laptop",
+      "os": "Windows 8"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2af",
+      "type": "desktop",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 47,
+        "cores": "6"
+      },
+      "memoryUsage": {
+        "percentage": 17,
+        "total": "4",
+        "used": 5.66,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 156,
+        "percentage": 72,
+        "unit": "GB"
+      },
+      "ip_address": "185.101.169.0",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "IoT Device 2",
+      "os": "Windows 8"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2b0",
+      "type": "web_server",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 59,
+        "cores": "6"
+      },
+      "memoryUsage": {
+        "percentage": 65,
+        "total": "4",
+        "used": 13.33,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 413,
+        "percentage": 96,
+        "unit": "GB"
+      },
+      "ip_address": "245.149.227.223",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "IoT Device 2",
+      "os": "Windows 11"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2b1",
+      "type": "database",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 100,
+        "cores": "2"
+      },
+      "memoryUsage": {
+        "percentage": 21,
+        "total": "8",
+        "used": 6.14,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 496,
+        "percentage": 65,
+        "unit": "GB"
+      },
+      "ip_address": "50.91.127.10",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "IoT Device 2",
+      "os": "Ubuntu 20.04 LTS"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2b2",
+      "type": "web_server",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 22,
+        "cores": "4"
+      },
+      "memoryUsage": {
+        "percentage": 56,
+        "total": "32",
+        "used": 13.06,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 281,
+        "percentage": 91,
+        "unit": "GB"
+      },
+      "ip_address": "170.96.82.239",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Web Server 2",
+      "os": "Windows 8"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2b3",
+      "type": "web_server",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 15,
+        "cores": "4"
+      },
+      "memoryUsage": {
+        "percentage": 23,
+        "total": "8",
+        "used": 7.73,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 547,
+        "percentage": 83,
+        "unit": "GB"
+      },
+      "ip_address": "1.37.68.133",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "IoT Device 2",
+      "os": "Ubuntu 18.04 LTS"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2b4",
+      "type": "web_server",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 49,
+        "cores": "6"
+      },
+      "memoryUsage": {
+        "percentage": 67,
+        "total": "32",
+        "used": 3.03,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 159,
+        "percentage": 33,
+        "unit": "GB"
+      },
+      "ip_address": "45.140.88.149",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "IoT Device 1",
+      "os": "Linux"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2b5",
+      "type": "desktop",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 57,
+        "cores": "2"
+      },
+      "memoryUsage": {
+        "percentage": 33,
+        "total": "16",
+        "used": 13.78,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 504,
+        "percentage": 71,
+        "unit": "GB"
+      },
+      "ip_address": "195.123.184.197",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Database Server 1",
+      "os": "CentOS 7"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2b6",
+      "type": "web_server",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 79,
+        "cores": "2"
+      },
+      "memoryUsage": {
+        "percentage": 48,
+        "total": "8",
+        "used": 5.8,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 530,
+        "percentage": 82,
+        "unit": "GB"
+      },
+      "ip_address": "173.180.63.191",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Web Server 2",
+      "os": "CentOS 7"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2b7",
+      "type": "database",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 28,
+        "cores": "2"
+      },
+      "memoryUsage": {
+        "percentage": 28,
+        "total": "32",
+        "used": 1.49,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 436,
+        "percentage": 29,
+        "unit": "GB"
+      },
+      "ip_address": "36.246.183.185",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "IoT Device 1",
+      "os": "CentOS 8"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2b8",
+      "type": "database",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 72,
+        "cores": "2"
+      },
+      "memoryUsage": {
+        "percentage": 28,
+        "total": "4",
+        "used": 7.23,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 1,
+        "percentage": 5,
+        "unit": "GB"
+      },
+      "ip_address": "206.207.227.129",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Database Server 2",
+      "os": "Ubuntu 18.04 LTS"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2b9",
+      "type": "web_server",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 90,
+        "cores": "6"
+      },
+      "memoryUsage": {
+        "percentage": 73,
+        "total": "32",
+        "used": 7.7,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 449,
+        "percentage": 63,
+        "unit": "GB"
+      },
+      "ip_address": "204.207.217.22",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "IoT Device 2",
+      "os": "Linux"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2ba",
+      "type": "desktop",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 84,
+        "cores": "2"
+      },
+      "memoryUsage": {
+        "percentage": 51,
+        "total": "8",
+        "used": 12.85,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 290,
+        "percentage": 85,
+        "unit": "GB"
+      },
+      "ip_address": "68.167.209.13",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Web Server 2",
+      "os": "Linux"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2bb",
+      "type": "iot",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 41,
+        "cores": "2"
+      },
+      "memoryUsage": {
+        "percentage": 46,
+        "total": "8",
+        "used": 4.27,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 205,
+        "percentage": 98,
+        "unit": "GB"
+      },
+      "ip_address": "181.240.113.135",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Database Server 2",
+      "os": "Windows 10 Pro"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2bc",
+      "type": "database",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 78,
+        "cores": "4"
+      },
+      "memoryUsage": {
+        "percentage": 18,
+        "total": "4",
+        "used": 3.19,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 97,
+        "percentage": 90,
+        "unit": "GB"
+      },
+      "ip_address": "97.112.241.60",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "IoT Device 1",
+      "os": "Windows 7"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2bd",
+      "type": "database",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 27,
+        "cores": "2"
+      },
+      "memoryUsage": {
+        "percentage": 72,
+        "total": "16",
+        "used": 4.17,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 532,
+        "percentage": 9,
+        "unit": "GB"
+      },
+      "ip_address": "190.219.70.219",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Database Server 1",
+      "os": "Linux"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2be",
+      "type": "database",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 14,
+        "cores": "6"
+      },
+      "memoryUsage": {
+        "percentage": 18,
+        "total": "4",
+        "used": 14.4,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 38,
+        "percentage": 30,
+        "unit": "GB"
+      },
+      "ip_address": "48.44.183.40",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "IoT Device 1",
+      "os": "Ubuntu 18.04 LTS"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2bf",
+      "type": "desktop",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 49,
+        "cores": "6"
+      },
+      "memoryUsage": {
+        "percentage": 7,
+        "total": "32",
+        "used": 8.72,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 440,
+        "percentage": 20,
+        "unit": "GB"
+      },
+      "ip_address": "97.145.223.171",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Web Server 2",
+      "os": "Windows 10 Pro"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2c0",
+      "type": "web_server",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 15,
+        "cores": "6"
+      },
+      "memoryUsage": {
+        "percentage": 81,
+        "total": "4",
+        "used": 9.45,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 358,
+        "percentage": 22,
+        "unit": "GB"
+      },
+      "ip_address": "195.84.29.209",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Development Laptop",
+      "os": "Windows 11"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2c1",
+      "type": "web_server",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 48,
+        "cores": "4"
+      },
+      "memoryUsage": {
+        "percentage": 59,
+        "total": "8",
+        "used": 11.13,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 152,
+        "percentage": 99,
+        "unit": "GB"
+      },
+      "ip_address": "112.188.112.74",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "IoT Device 2",
+      "os": "Windows 8"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2c2",
+      "type": "desktop",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 71,
+        "cores": "4"
+      },
+      "memoryUsage": {
+        "percentage": 88,
+        "total": "8",
+        "used": 8.8,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 470,
+        "percentage": 72,
+        "unit": "GB"
+      },
+      "ip_address": "167.101.104.50",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Database Server 1",
+      "os": "Windows 11"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2c3",
+      "type": "iot",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 76,
+        "cores": "2"
+      },
+      "memoryUsage": {
+        "percentage": 18,
+        "total": "4",
+        "used": 18.4,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 13,
+        "percentage": 13,
+        "unit": "GB"
+      },
+      "ip_address": "167.1.129.6",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Web Server 2",
+      "os": "Windows 10 Pro"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2c4",
+      "type": "iot",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 12,
+        "cores": "2"
+      },
+      "memoryUsage": {
+        "percentage": 60,
+        "total": "32",
+        "used": 15.64,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 307,
+        "percentage": 93,
+        "unit": "GB"
+      },
+      "ip_address": "70.177.108.38",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "IoT Device 1",
+      "os": "Windows 11"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2c5",
+      "type": "database",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 30,
+        "cores": "4"
+      },
+      "memoryUsage": {
+        "percentage": 31,
+        "total": "16",
+        "used": 3.61,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 29,
+        "percentage": 92,
+        "unit": "GB"
+      },
+      "ip_address": "135.39.189.124",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Web Server 2",
+      "os": "Linux"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2c6",
+      "type": "iot",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 60,
+        "cores": "6"
+      },
+      "memoryUsage": {
+        "percentage": 7,
+        "total": "4",
+        "used": 10.21,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 582,
+        "percentage": 37,
+        "unit": "GB"
+      },
+      "ip_address": "253.221.117.64",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Web Server 2",
+      "os": "Windows 10 Pro"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2c7",
+      "type": "database",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 65,
+        "cores": "2"
+      },
+      "memoryUsage": {
+        "percentage": 72,
+        "total": "32",
+        "used": 4.35,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 119,
+        "percentage": 82,
+        "unit": "GB"
+      },
+      "ip_address": "152.130.189.222",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Web Server 2",
+      "os": "CentOS 7"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2c8",
+      "type": "desktop",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 35,
+        "cores": "4"
+      },
+      "memoryUsage": {
+        "percentage": 84,
+        "total": "4",
+        "used": 1.23,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 217,
+        "percentage": 98,
+        "unit": "GB"
+      },
+      "ip_address": "220.20.245.87",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Database Server 2",
+      "os": "Windows 11"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2c9",
+      "type": "desktop",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 27,
+        "cores": "2"
+      },
+      "memoryUsage": {
+        "percentage": 36,
+        "total": "8",
+        "used": 16.41,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 359,
+        "percentage": 92,
+        "unit": "GB"
+      },
+      "ip_address": "184.24.105.61",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "IoT Device 2",
+      "os": "Windows 11"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2ca",
+      "type": "database",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 12,
+        "cores": "6"
+      },
+      "memoryUsage": {
+        "percentage": 13,
+        "total": "32",
+        "used": 19.87,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 540,
+        "percentage": 29,
+        "unit": "GB"
+      },
+      "ip_address": "29.113.244.205",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Web Server 2",
+      "os": "Linux"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2cb",
+      "type": "database",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 87,
+        "cores": "4"
+      },
+      "memoryUsage": {
+        "percentage": 96,
+        "total": "4",
+        "used": 3.08,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 327,
+        "percentage": 92,
+        "unit": "GB"
+      },
+      "ip_address": "92.205.83.86",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "IoT Device 1",
+      "os": "Windows 10 Pro"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2cc",
+      "type": "web_server",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 20,
+        "cores": "2"
+      },
+      "memoryUsage": {
+        "percentage": 90,
+        "total": "4",
+        "used": 5.07,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 534,
+        "percentage": 48,
+        "unit": "GB"
+      },
+      "ip_address": "211.61.231.160",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Development Laptop",
+      "os": "Linux"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2cd",
+      "type": "iot",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 39,
+        "cores": "6"
+      },
+      "memoryUsage": {
+        "percentage": 74,
+        "total": "4",
+        "used": 16.63,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 418,
+        "percentage": 90,
+        "unit": "GB"
+      },
+      "ip_address": "65.27.95.210",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Database Server 2",
+      "os": "Windows 11"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2ce",
+      "type": "desktop",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 7,
+        "cores": "6"
+      },
+      "memoryUsage": {
+        "percentage": 99,
+        "total": "8",
+        "used": 4.2,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 268,
+        "percentage": 70,
+        "unit": "GB"
+      },
+      "ip_address": "158.205.21.25",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Web Server 2",
+      "os": "CentOS 7"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2cf",
+      "type": "iot",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 49,
+        "cores": "4"
+      },
+      "memoryUsage": {
+        "percentage": 75,
+        "total": "32",
+        "used": 14.23,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 407,
+        "percentage": 78,
+        "unit": "GB"
+      },
+      "ip_address": "252.120.119.16",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Web Server 1",
+      "os": "Windows 11"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2d0",
+      "type": "iot",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 41,
+        "cores": "6"
+      },
+      "memoryUsage": {
+        "percentage": 1,
+        "total": "8",
+        "used": 0.62,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 600,
+        "percentage": 69,
+        "unit": "GB"
+      },
+      "ip_address": "69.252.179.140",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Database Server 2",
+      "os": "Windows 11"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2d1",
+      "type": "desktop",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 95,
+        "cores": "2"
+      },
+      "memoryUsage": {
+        "percentage": 25,
+        "total": "4",
+        "used": 10.14,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 151,
+        "percentage": 72,
+        "unit": "GB"
+      },
+      "ip_address": "136.36.6.7",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "IoT Device 2",
+      "os": "Windows 11"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2d2",
+      "type": "iot",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 66,
+        "cores": "4"
+      },
+      "memoryUsage": {
+        "percentage": 25,
+        "total": "4",
+        "used": 15.32,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 16,
+        "percentage": 3,
+        "unit": "GB"
+      },
+      "ip_address": "60.246.199.73",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "IoT Device 2",
+      "os": "CentOS 7"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2d3",
+      "type": "database",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 78,
+        "cores": "4"
+      },
+      "memoryUsage": {
+        "percentage": 31,
+        "total": "32",
+        "used": 0.21,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 463,
+        "percentage": 8,
+        "unit": "GB"
+      },
+      "ip_address": "175.221.113.41",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Web Server 2",
+      "os": "Windows 11"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2d4",
+      "type": "database",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 28,
+        "cores": "2"
+      },
+      "memoryUsage": {
+        "percentage": 65,
+        "total": "4",
+        "used": 13.81,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 297,
+        "percentage": 41,
+        "unit": "GB"
+      },
+      "ip_address": "197.103.241.249",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Database Server 1",
+      "os": "Ubuntu 18.04 LTS"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2d5",
+      "type": "web_server",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 81,
+        "cores": "6"
+      },
+      "memoryUsage": {
+        "percentage": 85,
+        "total": "8",
+        "used": 17.8,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 25,
+        "percentage": 85,
+        "unit": "GB"
+      },
+      "ip_address": "50.0.64.251",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "IoT Device 2",
+      "os": "CentOS 7"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2d6",
+      "type": "desktop",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 79,
+        "cores": "2"
+      },
+      "memoryUsage": {
+        "percentage": 75,
+        "total": "16",
+        "used": 13.68,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 318,
+        "percentage": 20,
+        "unit": "GB"
+      },
+      "ip_address": "97.151.217.121",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Web Server 2",
+      "os": "CentOS 8"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2d7",
+      "type": "database",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 99,
+        "cores": "2"
+      },
+      "memoryUsage": {
+        "percentage": 19,
+        "total": "16",
+        "used": 14.46,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 395,
+        "percentage": 8,
+        "unit": "GB"
+      },
+      "ip_address": "105.189.182.227",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Development Laptop",
+      "os": "Ubuntu 20.04 LTS"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2d8",
+      "type": "iot",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 25,
+        "cores": "2"
+      },
+      "memoryUsage": {
+        "percentage": 80,
+        "total": "8",
+        "used": 0.7,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 560,
+        "percentage": 95,
+        "unit": "GB"
+      },
+      "ip_address": "218.119.123.37",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Database Server 1",
+      "os": "Linux"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2d9",
+      "type": "desktop",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 10,
+        "cores": "6"
+      },
+      "memoryUsage": {
+        "percentage": 1,
+        "total": "32",
+        "used": 11.68,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 107,
+        "percentage": 9,
+        "unit": "GB"
+      },
+      "ip_address": "86.62.126.131",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Database Server 2",
+      "os": "Windows 7"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2da",
+      "type": "iot",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 43,
+        "cores": "6"
+      },
+      "memoryUsage": {
+        "percentage": 10,
+        "total": "4",
+        "used": 11.4,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 19,
+        "percentage": 73,
+        "unit": "GB"
+      },
+      "ip_address": "96.48.121.7",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Database Server 2",
+      "os": "CentOS 8"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2db",
+      "type": "desktop",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 23,
+        "cores": "4"
+      },
+      "memoryUsage": {
+        "percentage": 14,
+        "total": "8",
+        "used": 13.35,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 303,
+        "percentage": 50,
+        "unit": "GB"
+      },
+      "ip_address": "99.217.4.105",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Web Server 2",
+      "os": "CentOS 8"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2dc",
+      "type": "iot",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 57,
+        "cores": "6"
+      },
+      "memoryUsage": {
+        "percentage": 74,
+        "total": "8",
+        "used": 13.04,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 346,
+        "percentage": 40,
+        "unit": "GB"
+      },
+      "ip_address": "219.197.119.177",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Web Server 1",
+      "os": "Windows 11"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2dd",
+      "type": "desktop",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 40,
+        "cores": "4"
+      },
+      "memoryUsage": {
+        "percentage": 48,
+        "total": "8",
+        "used": 2.4,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 596,
+        "percentage": 40,
+        "unit": "GB"
+      },
+      "ip_address": "2.88.11.187",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Development Laptop",
+      "os": "Linux"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2de",
+      "type": "iot",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 67,
+        "cores": "4"
+      },
+      "memoryUsage": {
+        "percentage": 20,
+        "total": "32",
+        "used": 2.19,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 451,
+        "percentage": 5,
+        "unit": "GB"
+      },
+      "ip_address": "143.153.233.71",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Web Server 1",
+      "os": "Windows 11"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2df",
+      "type": "iot",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 38,
+        "cores": "4"
+      },
+      "memoryUsage": {
+        "percentage": 85,
+        "total": "32",
+        "used": 7.21,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 195,
+        "percentage": 99,
+        "unit": "GB"
+      },
+      "ip_address": "96.212.128.27",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Web Server 2",
+      "os": "Ubuntu 20.04 LTS"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2e0",
+      "type": "web_server",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 92,
+        "cores": "6"
+      },
+      "memoryUsage": {
+        "percentage": 27,
+        "total": "32",
+        "used": 11.35,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 406,
+        "percentage": 1,
+        "unit": "GB"
+      },
+      "ip_address": "244.43.207.178",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Web Server 1",
+      "os": "Ubuntu 20.04 LTS"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2e1",
+      "type": "database",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 59,
+        "cores": "2"
+      },
+      "memoryUsage": {
+        "percentage": 100,
+        "total": "8",
+        "used": 1.64,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 536,
+        "percentage": 60,
+        "unit": "GB"
+      },
+      "ip_address": "101.211.116.115",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "IoT Device 1",
+      "os": "CentOS 8"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2e2",
+      "type": "web_server",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 89,
+        "cores": "4"
+      },
+      "memoryUsage": {
+        "percentage": 96,
+        "total": "32",
+        "used": 14.89,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 567,
+        "percentage": 80,
+        "unit": "GB"
+      },
+      "ip_address": "17.231.81.158",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Web Server 2",
+      "os": "CentOS 8"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2e3",
+      "type": "web_server",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 7,
+        "cores": "2"
+      },
+      "memoryUsage": {
+        "percentage": 82,
+        "total": "16",
+        "used": 18.02,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 97,
+        "percentage": 16,
+        "unit": "GB"
+      },
+      "ip_address": "143.0.217.133",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "IoT Device 2",
+      "os": "CentOS 8"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2e4",
+      "type": "web_server",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 4,
+        "cores": "4"
+      },
+      "memoryUsage": {
+        "percentage": 88,
+        "total": "4",
+        "used": 4.41,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 181,
+        "percentage": 45,
+        "unit": "GB"
+      },
+      "ip_address": "9.143.17.1",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "IoT Device 2",
+      "os": "Windows 11"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2e5",
+      "type": "database",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 64,
+        "cores": "2"
+      },
+      "memoryUsage": {
+        "percentage": 100,
+        "total": "16",
+        "used": 7.67,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 145,
+        "percentage": 74,
+        "unit": "GB"
+      },
+      "ip_address": "194.54.250.212",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Database Server 2",
+      "os": "Ubuntu 20.04 LTS"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2e6",
+      "type": "desktop",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 83,
+        "cores": "6"
+      },
+      "memoryUsage": {
+        "percentage": 64,
+        "total": "8",
+        "used": 16.38,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 313,
+        "percentage": 26,
+        "unit": "GB"
+      },
+      "ip_address": "39.210.32.154",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Database Server 2",
+      "os": "Ubuntu 20.04 LTS"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2e7",
+      "type": "iot",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 36,
+        "cores": "4"
+      },
+      "memoryUsage": {
+        "percentage": 65,
+        "total": "32",
+        "used": 14.78,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 397,
+        "percentage": 16,
+        "unit": "GB"
+      },
+      "ip_address": "30.65.85.58",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Development Laptop",
+      "os": "Windows 10 Pro"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2e8",
+      "type": "web_server",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 5,
+        "cores": "2"
+      },
+      "memoryUsage": {
+        "percentage": 85,
+        "total": "32",
+        "used": 12.13,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 178,
+        "percentage": 77,
+        "unit": "GB"
+      },
+      "ip_address": "48.98.36.86",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Development Laptop",
+      "os": "Ubuntu 20.04 LTS"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2e9",
+      "type": "web_server",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 5,
+        "cores": "6"
+      },
+      "memoryUsage": {
+        "percentage": 76,
+        "total": "32",
+        "used": 1.58,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 322,
+        "percentage": 46,
+        "unit": "GB"
+      },
+      "ip_address": "85.222.242.124",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Web Server 1",
+      "os": "Windows 11"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2ea",
+      "type": "web_server",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 94,
+        "cores": "6"
+      },
+      "memoryUsage": {
+        "percentage": 99,
+        "total": "32",
+        "used": 4.05,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 590,
+        "percentage": 45,
+        "unit": "GB"
+      },
+      "ip_address": "63.217.150.118",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Database Server 2",
+      "os": "CentOS 8"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2eb",
+      "type": "web_server",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 50,
+        "cores": "2"
+      },
+      "memoryUsage": {
+        "percentage": 30,
+        "total": "16",
+        "used": 1.33,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 27,
+        "percentage": 42,
+        "unit": "GB"
+      },
+      "ip_address": "225.207.164.35",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "IoT Device 1",
+      "os": "Windows 10 Pro"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2ec",
+      "type": "iot",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 5,
+        "cores": "2"
+      },
+      "memoryUsage": {
+        "percentage": 67,
+        "total": "8",
+        "used": 19.07,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 71,
+        "percentage": 82,
+        "unit": "GB"
+      },
+      "ip_address": "88.66.184.98",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Web Server 1",
+      "os": "CentOS 7"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2ed",
+      "type": "iot",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 97,
+        "cores": "6"
+      },
+      "memoryUsage": {
+        "percentage": 69,
+        "total": "4",
+        "used": 15.74,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 172,
+        "percentage": 40,
+        "unit": "GB"
+      },
+      "ip_address": "247.143.31.84",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Web Server 1",
+      "os": "Ubuntu 20.04 LTS"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2ee",
+      "type": "iot",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 42,
+        "cores": "4"
+      },
+      "memoryUsage": {
+        "percentage": 44,
+        "total": "8",
+        "used": 17.05,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 372,
+        "percentage": 79,
+        "unit": "GB"
+      },
+      "ip_address": "58.200.43.213",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "IoT Device 1",
+      "os": "Windows 8"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2ef",
+      "type": "web_server",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 94,
+        "cores": "4"
+      },
+      "memoryUsage": {
+        "percentage": 77,
+        "total": "16",
+        "used": 4.76,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 385,
+        "percentage": 54,
+        "unit": "GB"
+      },
+      "ip_address": "176.126.105.178",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Database Server 1",
+      "os": "Windows 7"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2f0",
+      "type": "desktop",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 62,
+        "cores": "6"
+      },
+      "memoryUsage": {
+        "percentage": 54,
+        "total": "8",
+        "used": 5.37,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 314,
+        "percentage": 91,
+        "unit": "GB"
+      },
+      "ip_address": "207.9.217.50",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Web Server 1",
+      "os": "CentOS 8"
+    },
+    {
+      "id": "66088b58aefbbeebc422b2f1",
+      "type": "database",
+      "status": "online",
+      "cpuUsage": {
+        "percentage": 100,
+        "cores": "6"
+      },
+      "memoryUsage": {
+        "percentage": 52,
+        "total": "8",
+        "used": 1.97,
+        "unit": "GB"
+      },
+      "diskUsage": {
+        "total": "int( 100, 200,300,400,500,600,700,800)",
+        "used": 43,
+        "percentage": 88,
+        "unit": "GB"
+      },
+      "ip_address": "162.250.207.163",
+      "applications": ["Apache 2.4", "Nginx", "PHP 7.4"],
+      "name": "Web Server 2",
+      "os": "Windows 11"
+    }
+  ],
+
+  "threats": [
+    {
+      "id": "66088eaaaefbbeebc422b3ba",
+      "timestamp": "2023-10-03T12:29:14.320Z",
+      "severity": "high",
+      "type": "denial-of-service_attack",
+      "source": "endpoint4",
+      "target": "server3",
+      "details": "exhibiting suspicious behavior."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3bb",
+      "timestamp": "2024-01-29T20:57:16.048Z",
+      "severity": "medium",
+      "type": "denial-of-service_attack",
+      "source": "web_server",
+      "target": "server4",
+      "details": "Increased traffic detected"
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3bc",
+      "timestamp": "2023-08-27T09:17:19.935Z",
+      "severity": "low",
+      "type": "phishing_attempt",
+      "source": "endpoint3",
+      "target": "server6",
+      "details": "exhibiting suspicious behavior."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3bd",
+      "timestamp": "2023-06-17T22:47:15.056Z",
+      "severity": "medium",
+      "type": "malware_detection",
+      "source": "endpoint3",
+      "target": "server6",
+      "details": "exhibiting suspicious behavior."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3be",
+      "timestamp": "2023-09-22T21:24:35.992Z",
+      "severity": "low",
+      "type": "suspicious_login_attempt",
+      "source": "unknown",
+      "target": "server3",
+      "details": "Subject: 'Urgent action required! Verify your account"
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3bf",
+      "timestamp": "2023-11-06T11:13:39.457Z",
+      "severity": "high",
+      "type": "zero-day_exploit",
+      "source": "web_server",
+      "target": "server1",
+      "details": "Subject: 'Urgent action required! Verify your account"
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3c0",
+      "timestamp": "2023-05-10T23:20:29.770Z",
+      "severity": "high",
+      "type": "zero-day_exploit",
+      "source": "endpoint4",
+      "target": "server6",
+      "details": "Failed login attempt from unknown IP address using stolen credentials."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3c1",
+      "timestamp": "2023-01-24T19:26:20.258Z",
+      "severity": "low",
+      "type": "zero-day_exploit",
+      "source": "email",
+      "target": "server5",
+      "details": "suspected DDoS attack targeting network infrastructure."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3c2",
+      "timestamp": "2023-04-10T20:52:48.292Z",
+      "severity": "low",
+      "type": "malware_detection",
+      "source": "endpoint2",
+      "target": "server4",
+      "details": "Attempted exploitation of unpatched vulnerability CVE-2024-12345."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3c3",
+      "timestamp": "2024-03-17T11:09:40.870Z",
+      "severity": "high",
+      "type": "suspicious_login_attempt",
+      "source": "unknown",
+      "target": "server1",
+      "details": "Increased traffic detected"
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3c4",
+      "timestamp": "2023-09-09T21:49:00.518Z",
+      "severity": "high",
+      "type": "zero-day_exploit",
+      "source": "endpoint4",
+      "target": "server4",
+      "details": "File 'temp.exe' detected and quarantined"
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3c5",
+      "timestamp": "2023-03-20T15:34:15.830Z",
+      "severity": "high",
+      "type": "phishing_attempt",
+      "source": "endpoint1",
+      "target": "server6",
+      "details": "Subject: 'Urgent action required! Verify your account"
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3c6",
+      "timestamp": "2023-03-31T09:00:31.354Z",
+      "severity": "high",
+      "type": "suspicious_login_attempt",
+      "source": "endpoint1",
+      "target": "network",
+      "details": "Attempted exploitation of unpatched vulnerability CVE-2024-12345."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3c7",
+      "timestamp": "2023-01-01T08:59:12.729Z",
+      "severity": "medium",
+      "type": "suspicious_login_attempt",
+      "source": "endpoint2",
+      "target": "server7",
+      "details": "suspected DDoS attack targeting network infrastructure."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3c8",
+      "timestamp": "2024-01-16T09:01:37.249Z",
+      "severity": "low",
+      "type": "suspicious_login_attempt",
+      "source": "firewall",
+      "target": "server6",
+      "details": "Attempted exploitation of unpatched vulnerability CVE-2024-12345."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3c9",
+      "timestamp": "2023-10-04T21:06:55.218Z",
+      "severity": "low",
+      "type": "phishing_attempt",
+      "source": "unknown",
+      "target": "server5",
+      "details": "Subject: 'Urgent action required! Verify your account"
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3ca",
+      "timestamp": "2023-06-21T21:39:51.153Z",
+      "severity": "high",
+      "type": "phishing_attempt",
+      "source": "unknown",
+      "target": "server6",
+      "details": "Attempted exploitation of unpatched vulnerability CVE-2024-12345."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3cb",
+      "timestamp": "2023-08-29T15:00:46.452Z",
+      "severity": "high",
+      "type": "zero-day_exploit",
+      "source": "endpoint1",
+      "target": "network",
+      "details": "Attempted exploitation of unpatched vulnerability CVE-2024-12345."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3cc",
+      "timestamp": "2023-02-09T08:47:36.460Z",
+      "severity": "high",
+      "type": "suspicious_login_attempt",
+      "source": "endpoint1",
+      "target": "server1",
+      "details": "File 'temp.exe' detected and quarantined"
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3cd",
+      "timestamp": "2023-07-12T18:03:42.979Z",
+      "severity": "medium",
+      "type": "suspicious_login_attempt",
+      "source": "endpoint3",
+      "target": "network",
+      "details": "Failed login attempt from unknown IP address using stolen credentials."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3ce",
+      "timestamp": "2023-05-03T19:37:25.902Z",
+      "severity": "low",
+      "type": "zero-day_exploit",
+      "source": "endpoint3",
+      "target": "server1",
+      "details": "Subject: 'Urgent action required! Verify your account"
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3cf",
+      "timestamp": "2023-03-14T15:35:19.584Z",
+      "severity": "medium",
+      "type": "zero-day_exploit",
+      "source": "endpoint3",
+      "target": "server3",
+      "details": "Attempted exploitation of unpatched vulnerability CVE-2024-12345."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3d0",
+      "timestamp": "2023-02-28T21:45:04.396Z",
+      "severity": "medium",
+      "type": "phishing_attempt",
+      "source": "endpoint1",
+      "target": "server2",
+      "details": "Subject: 'Urgent action required! Verify your account"
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3d1",
+      "timestamp": "2023-07-01T00:44:33.425Z",
+      "severity": "low",
+      "type": "phishing_attempt",
+      "source": "endpoint3",
+      "target": "server7",
+      "details": "File 'temp.exe' detected and quarantined"
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3d2",
+      "timestamp": "2023-04-10T21:23:13.955Z",
+      "severity": "low",
+      "type": "suspicious_login_attempt",
+      "source": "endpoint3",
+      "target": "server2",
+      "details": "Increased traffic detected"
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3d3",
+      "timestamp": "2023-01-21T19:56:42.131Z",
+      "severity": "low",
+      "type": "phishing_attempt",
+      "source": "web_server",
+      "target": "server2",
+      "details": "suspected DDoS attack targeting network infrastructure."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3d4",
+      "timestamp": "2023-08-31T16:04:54.820Z",
+      "severity": "high",
+      "type": "suspicious_login_attempt",
+      "source": "endpoint4",
+      "target": "server3",
+      "details": "Increased traffic detected"
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3d5",
+      "timestamp": "2023-05-25T02:12:46.055Z",
+      "severity": "medium",
+      "type": "malware_detection",
+      "source": "firewall",
+      "target": "server5",
+      "details": "Subject: 'Urgent action required! Verify your account"
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3d6",
+      "timestamp": "2023-01-09T17:43:51.430Z",
+      "severity": "high",
+      "type": "suspicious_login_attempt",
+      "source": "email",
+      "target": "network",
+      "details": "Failed login attempt from unknown IP address using stolen credentials."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3d7",
+      "timestamp": "2023-12-09T20:05:15.711Z",
+      "severity": "medium",
+      "type": "phishing_attempt",
+      "source": "unknown",
+      "target": "server3",
+      "details": "suspected DDoS attack targeting network infrastructure."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3d8",
+      "timestamp": "2024-03-22T03:11:35.471Z",
+      "severity": "medium",
+      "type": "zero-day_exploit",
+      "source": "firewall",
+      "target": "server4",
+      "details": "suspected DDoS attack targeting network infrastructure."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3d9",
+      "timestamp": "2024-01-05T10:08:20.931Z",
+      "severity": "high",
+      "type": "phishing_attempt",
+      "source": "firewall",
+      "target": "network",
+      "details": "exhibiting suspicious behavior."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3da",
+      "timestamp": "2024-03-18T14:12:22.645Z",
+      "severity": "low",
+      "type": "suspicious_login_attempt",
+      "source": "web_server",
+      "target": "server1",
+      "details": "exhibiting suspicious behavior."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3db",
+      "timestamp": "2023-12-04T05:17:43.808Z",
+      "severity": "medium",
+      "type": "denial-of-service_attack",
+      "source": "endpoint1",
+      "target": "server1",
+      "details": "Failed login attempt from unknown IP address using stolen credentials."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3dc",
+      "timestamp": "2023-11-16T19:33:10.683Z",
+      "severity": "high",
+      "type": "suspicious_login_attempt",
+      "source": "endpoint2",
+      "target": "network",
+      "details": "Increased traffic detected"
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3dd",
+      "timestamp": "2023-03-15T01:11:37.818Z",
+      "severity": "medium",
+      "type": "phishing_attempt",
+      "source": "endpoint2",
+      "target": "server2",
+      "details": "Increased traffic detected"
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3de",
+      "timestamp": "2023-02-08T14:55:59.905Z",
+      "severity": "low",
+      "type": "malware_detection",
+      "source": "web_server",
+      "target": "server7",
+      "details": "Failed login attempt from unknown IP address using stolen credentials."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3df",
+      "timestamp": "2023-10-07T06:23:31.164Z",
+      "severity": "low",
+      "type": "phishing_attempt",
+      "source": "endpoint1",
+      "target": "server2",
+      "details": "suspected DDoS attack targeting network infrastructure."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3e0",
+      "timestamp": "2023-01-04T11:49:08.081Z",
+      "severity": "medium",
+      "type": "denial-of-service_attack",
+      "source": "web_server",
+      "target": "server3",
+      "details": "exhibiting suspicious behavior."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3e1",
+      "timestamp": "2023-03-25T17:24:57.000Z",
+      "severity": "high",
+      "type": "denial-of-service_attack",
+      "source": "endpoint1",
+      "target": "server5",
+      "details": "exhibiting suspicious behavior."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3e2",
+      "timestamp": "2023-01-25T08:50:15.005Z",
+      "severity": "high",
+      "type": "suspicious_login_attempt",
+      "source": "firewall",
+      "target": "server5",
+      "details": "Subject: 'Urgent action required! Verify your account"
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3e3",
+      "timestamp": "2023-02-20T23:14:23.907Z",
+      "severity": "medium",
+      "type": "denial-of-service_attack",
+      "source": "email",
+      "target": "server7",
+      "details": "suspected DDoS attack targeting network infrastructure."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3e4",
+      "timestamp": "2024-02-01T10:12:04.261Z",
+      "severity": "medium",
+      "type": "denial-of-service_attack",
+      "source": "web_server",
+      "target": "network",
+      "details": "Increased traffic detected"
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3e5",
+      "timestamp": "2023-09-25T20:39:11.776Z",
+      "severity": "low",
+      "type": "phishing_attempt",
+      "source": "endpoint3",
+      "target": "server2",
+      "details": "File 'temp.exe' detected and quarantined"
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3e6",
+      "timestamp": "2023-01-26T00:41:41.988Z",
+      "severity": "high",
+      "type": "zero-day_exploit",
+      "source": "endpoint3",
+      "target": "server5",
+      "details": "Failed login attempt from unknown IP address using stolen credentials."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3e7",
+      "timestamp": "2023-03-03T12:32:07.292Z",
+      "severity": "low",
+      "type": "suspicious_login_attempt",
+      "source": "endpoint2",
+      "target": "server6",
+      "details": "Failed login attempt from unknown IP address using stolen credentials."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3e8",
+      "timestamp": "2023-04-21T16:18:56.283Z",
+      "severity": "medium",
+      "type": "zero-day_exploit",
+      "source": "email",
+      "target": "server7",
+      "details": "Attempted exploitation of unpatched vulnerability CVE-2024-12345."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3e9",
+      "timestamp": "2023-05-21T22:24:17.044Z",
+      "severity": "high",
+      "type": "denial-of-service_attack",
+      "source": "firewall",
+      "target": "server2",
+      "details": "Subject: 'Urgent action required! Verify your account"
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3ea",
+      "timestamp": "2023-03-01T04:16:52.867Z",
+      "severity": "low",
+      "type": "malware_detection",
+      "source": "firewall",
+      "target": "server5",
+      "details": "Increased traffic detected"
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3eb",
+      "timestamp": "2023-09-14T04:57:33.382Z",
+      "severity": "high",
+      "type": "suspicious_login_attempt",
+      "source": "endpoint3",
+      "target": "server7",
+      "details": "suspected DDoS attack targeting network infrastructure."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3ec",
+      "timestamp": "2023-04-04T17:59:28.287Z",
+      "severity": "low",
+      "type": "phishing_attempt",
+      "source": "unknown",
+      "target": "server2",
+      "details": "File 'temp.exe' detected and quarantined"
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3ed",
+      "timestamp": "2023-11-27T22:41:06.485Z",
+      "severity": "medium",
+      "type": "zero-day_exploit",
+      "source": "unknown",
+      "target": "server1",
+      "details": "Attempted exploitation of unpatched vulnerability CVE-2024-12345."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3ee",
+      "timestamp": "2023-02-16T17:00:53.238Z",
+      "severity": "high",
+      "type": "denial-of-service_attack",
+      "source": "endpoint4",
+      "target": "server4",
+      "details": "Subject: 'Urgent action required! Verify your account"
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3ef",
+      "timestamp": "2023-01-08T23:23:52.643Z",
+      "severity": "high",
+      "type": "zero-day_exploit",
+      "source": "endpoint2",
+      "target": "server2",
+      "details": "exhibiting suspicious behavior."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3f0",
+      "timestamp": "2023-05-30T21:25:16.997Z",
+      "severity": "high",
+      "type": "suspicious_login_attempt",
+      "source": "endpoint1",
+      "target": "server1",
+      "details": "Attempted exploitation of unpatched vulnerability CVE-2024-12345."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3f1",
+      "timestamp": "2023-06-23T07:38:15.628Z",
+      "severity": "low",
+      "type": "malware_detection",
+      "source": "endpoint4",
+      "target": "server3",
+      "details": "File 'temp.exe' detected and quarantined"
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3f2",
+      "timestamp": "2023-11-02T22:24:17.263Z",
+      "severity": "medium",
+      "type": "suspicious_login_attempt",
+      "source": "firewall",
+      "target": "network",
+      "details": "suspected DDoS attack targeting network infrastructure."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3f3",
+      "timestamp": "2023-10-25T07:13:55.843Z",
+      "severity": "high",
+      "type": "zero-day_exploit",
+      "source": "unknown",
+      "target": "server3",
+      "details": "suspected DDoS attack targeting network infrastructure."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3f4",
+      "timestamp": "2023-06-24T01:32:22.624Z",
+      "severity": "low",
+      "type": "zero-day_exploit",
+      "source": "email",
+      "target": "server7",
+      "details": "exhibiting suspicious behavior."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3f5",
+      "timestamp": "2023-09-06T04:34:13.469Z",
+      "severity": "high",
+      "type": "suspicious_login_attempt",
+      "source": "endpoint3",
+      "target": "server7",
+      "details": "suspected DDoS attack targeting network infrastructure."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3f6",
+      "timestamp": "2023-08-05T17:18:54.150Z",
+      "severity": "high",
+      "type": "malware_detection",
+      "source": "web_server",
+      "target": "server2",
+      "details": "Subject: 'Urgent action required! Verify your account"
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3f7",
+      "timestamp": "2023-12-23T08:36:54.864Z",
+      "severity": "high",
+      "type": "zero-day_exploit",
+      "source": "web_server",
+      "target": "server4",
+      "details": "File 'temp.exe' detected and quarantined"
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3f8",
+      "timestamp": "2023-04-14T13:31:32.952Z",
+      "severity": "low",
+      "type": "suspicious_login_attempt",
+      "source": "firewall",
+      "target": "server6",
+      "details": "Increased traffic detected"
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3f9",
+      "timestamp": "2023-11-22T07:25:06.480Z",
+      "severity": "low",
+      "type": "malware_detection",
+      "source": "unknown",
+      "target": "server3",
+      "details": "suspected DDoS attack targeting network infrastructure."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3fa",
+      "timestamp": "2023-01-22T08:37:03.573Z",
+      "severity": "high",
+      "type": "denial-of-service_attack",
+      "source": "firewall",
+      "target": "server7",
+      "details": "File 'temp.exe' detected and quarantined"
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3fb",
+      "timestamp": "2023-12-06T09:46:09.129Z",
+      "severity": "high",
+      "type": "zero-day_exploit",
+      "source": "endpoint1",
+      "target": "server4",
+      "details": "exhibiting suspicious behavior."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3fc",
+      "timestamp": "2024-03-18T14:02:44.532Z",
+      "severity": "low",
+      "type": "zero-day_exploit",
+      "source": "firewall",
+      "target": "server1",
+      "details": "suspected DDoS attack targeting network infrastructure."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3fd",
+      "timestamp": "2023-01-25T07:22:18.363Z",
+      "severity": "high",
+      "type": "phishing_attempt",
+      "source": "web_server",
+      "target": "server5",
+      "details": "Increased traffic detected"
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3fe",
+      "timestamp": "2024-02-27T23:47:00.081Z",
+      "severity": "low",
+      "type": "malware_detection",
+      "source": "endpoint3",
+      "target": "server1",
+      "details": "Increased traffic detected"
+    },
+    {
+      "id": "66088eaaaefbbeebc422b3ff",
+      "timestamp": "2023-03-10T07:01:13.142Z",
+      "severity": "high",
+      "type": "phishing_attempt",
+      "source": "web_server",
+      "target": "server6",
+      "details": "Subject: 'Urgent action required! Verify your account"
+    },
+    {
+      "id": "66088eaaaefbbeebc422b400",
+      "timestamp": "2024-01-27T22:01:05.518Z",
+      "severity": "low",
+      "type": "denial-of-service_attack",
+      "source": "endpoint1",
+      "target": "server5",
+      "details": "Subject: 'Urgent action required! Verify your account"
+    },
+    {
+      "id": "66088eaaaefbbeebc422b401",
+      "timestamp": "2024-03-13T19:45:12.364Z",
+      "severity": "low",
+      "type": "suspicious_login_attempt",
+      "source": "endpoint2",
+      "target": "server2",
+      "details": "exhibiting suspicious behavior."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b402",
+      "timestamp": "2023-04-09T23:35:07.400Z",
+      "severity": "low",
+      "type": "suspicious_login_attempt",
+      "source": "firewall",
+      "target": "server3",
+      "details": "File 'temp.exe' detected and quarantined"
+    },
+    {
+      "id": "66088eaaaefbbeebc422b403",
+      "timestamp": "2023-06-20T09:41:34.097Z",
+      "severity": "low",
+      "type": "phishing_attempt",
+      "source": "firewall",
+      "target": "server3",
+      "details": "exhibiting suspicious behavior."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b404",
+      "timestamp": "2023-10-30T11:34:41.574Z",
+      "severity": "medium",
+      "type": "phishing_attempt",
+      "source": "endpoint1",
+      "target": "server2",
+      "details": "exhibiting suspicious behavior."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b405",
+      "timestamp": "2023-05-20T23:35:24.718Z",
+      "severity": "low",
+      "type": "suspicious_login_attempt",
+      "source": "web_server",
+      "target": "server1",
+      "details": "Attempted exploitation of unpatched vulnerability CVE-2024-12345."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b406",
+      "timestamp": "2023-07-28T09:51:51.205Z",
+      "severity": "low",
+      "type": "phishing_attempt",
+      "source": "endpoint2",
+      "target": "server7",
+      "details": "exhibiting suspicious behavior."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b407",
+      "timestamp": "2023-05-16T17:17:48.581Z",
+      "severity": "low",
+      "type": "suspicious_login_attempt",
+      "source": "endpoint2",
+      "target": "server1",
+      "details": "File 'temp.exe' detected and quarantined"
+    },
+    {
+      "id": "66088eaaaefbbeebc422b408",
+      "timestamp": "2023-11-10T12:41:16.871Z",
+      "severity": "medium",
+      "type": "suspicious_login_attempt",
+      "source": "endpoint4",
+      "target": "server5",
+      "details": "Subject: 'Urgent action required! Verify your account"
+    },
+    {
+      "id": "66088eaaaefbbeebc422b409",
+      "timestamp": "2024-01-03T11:41:53.423Z",
+      "severity": "low",
+      "type": "malware_detection",
+      "source": "email",
+      "target": "server5",
+      "details": "Attempted exploitation of unpatched vulnerability CVE-2024-12345."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b40a",
+      "timestamp": "2023-04-01T23:20:07.162Z",
+      "severity": "high",
+      "type": "malware_detection",
+      "source": "endpoint3",
+      "target": "server2",
+      "details": "Failed login attempt from unknown IP address using stolen credentials."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b40b",
+      "timestamp": "2023-12-01T23:13:49.191Z",
+      "severity": "low",
+      "type": "zero-day_exploit",
+      "source": "endpoint4",
+      "target": "server6",
+      "details": "Increased traffic detected"
+    },
+    {
+      "id": "66088eaaaefbbeebc422b40c",
+      "timestamp": "2023-02-14T02:49:01.439Z",
+      "severity": "high",
+      "type": "malware_detection",
+      "source": "endpoint3",
+      "target": "server1",
+      "details": "Failed login attempt from unknown IP address using stolen credentials."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b40d",
+      "timestamp": "2024-03-02T15:34:09.120Z",
+      "severity": "low",
+      "type": "zero-day_exploit",
+      "source": "unknown",
+      "target": "server1",
+      "details": "Subject: 'Urgent action required! Verify your account"
+    },
+    {
+      "id": "66088eaaaefbbeebc422b40e",
+      "timestamp": "2024-03-01T18:58:08.862Z",
+      "severity": "medium",
+      "type": "zero-day_exploit",
+      "source": "web_server",
+      "target": "server1",
+      "details": "Increased traffic detected"
+    },
+    {
+      "id": "66088eaaaefbbeebc422b40f",
+      "timestamp": "2023-01-18T06:17:25.837Z",
+      "severity": "high",
+      "type": "suspicious_login_attempt",
+      "source": "endpoint2",
+      "target": "server3",
+      "details": "Failed login attempt from unknown IP address using stolen credentials."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b410",
+      "timestamp": "2023-08-22T23:07:25.991Z",
+      "severity": "medium",
+      "type": "phishing_attempt",
+      "source": "unknown",
+      "target": "server3",
+      "details": "Failed login attempt from unknown IP address using stolen credentials."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b411",
+      "timestamp": "2024-02-10T00:42:06.122Z",
+      "severity": "medium",
+      "type": "zero-day_exploit",
+      "source": "endpoint2",
+      "target": "server5",
+      "details": "File 'temp.exe' detected and quarantined"
+    },
+    {
+      "id": "66088eaaaefbbeebc422b412",
+      "timestamp": "2023-04-09T08:55:41.993Z",
+      "severity": "low",
+      "type": "zero-day_exploit",
+      "source": "endpoint2",
+      "target": "server3",
+      "details": "exhibiting suspicious behavior."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b413",
+      "timestamp": "2023-06-11T01:43:37.740Z",
+      "severity": "high",
+      "type": "zero-day_exploit",
+      "source": "email",
+      "target": "server7",
+      "details": "suspected DDoS attack targeting network infrastructure."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b414",
+      "timestamp": "2023-07-12T06:50:45.860Z",
+      "severity": "high",
+      "type": "phishing_attempt",
+      "source": "email",
+      "target": "server2",
+      "details": "Increased traffic detected"
+    },
+    {
+      "id": "66088eaaaefbbeebc422b415",
+      "timestamp": "2024-03-23T00:28:04.216Z",
+      "severity": "low",
+      "type": "zero-day_exploit",
+      "source": "unknown",
+      "target": "server3",
+      "details": "Failed login attempt from unknown IP address using stolen credentials."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b416",
+      "timestamp": "2023-11-28T03:27:35.689Z",
+      "severity": "medium",
+      "type": "zero-day_exploit",
+      "source": "endpoint2",
+      "target": "server7",
+      "details": "Failed login attempt from unknown IP address using stolen credentials."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b417",
+      "timestamp": "2024-01-22T08:40:54.543Z",
+      "severity": "low",
+      "type": "zero-day_exploit",
+      "source": "firewall",
+      "target": "server7",
+      "details": "Failed login attempt from unknown IP address using stolen credentials."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b418",
+      "timestamp": "2023-02-01T23:53:14.172Z",
+      "severity": "high",
+      "type": "denial-of-service_attack",
+      "source": "firewall",
+      "target": "server4",
+      "details": "Subject: 'Urgent action required! Verify your account"
+    },
+    {
+      "id": "66088eaaaefbbeebc422b419",
+      "timestamp": "2023-12-24T01:46:10.950Z",
+      "severity": "medium",
+      "type": "phishing_attempt",
+      "source": "web_server",
+      "target": "server2",
+      "details": "exhibiting suspicious behavior."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b41a",
+      "timestamp": "2023-05-09T03:07:51.797Z",
+      "severity": "medium",
+      "type": "phishing_attempt",
+      "source": "web_server",
+      "target": "server1",
+      "details": "File 'temp.exe' detected and quarantined"
+    },
+    {
+      "id": "66088eaaaefbbeebc422b41b",
+      "timestamp": "2023-04-04T14:32:28.903Z",
+      "severity": "high",
+      "type": "denial-of-service_attack",
+      "source": "web_server",
+      "target": "network",
+      "details": "Increased traffic detected"
+    },
+    {
+      "id": "66088eaaaefbbeebc422b41c",
+      "timestamp": "2023-07-04T01:50:18.865Z",
+      "severity": "low",
+      "type": "suspicious_login_attempt",
+      "source": "endpoint4",
+      "target": "network",
+      "details": "exhibiting suspicious behavior."
+    },
+    {
+      "id": "66088eaaaefbbeebc422b41d",
+      "timestamp": "2023-05-05T11:50:50.340Z",
+      "severity": "medium",
+      "type": "phishing_attempt",
+      "source": "unknown",
+      "target": "server7",
+      "details": "Subject: 'Urgent action required! Verify your account"
+    }
+  ]
+}

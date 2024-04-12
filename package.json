@@ -1,0 +1,19 @@
+{
+  "name": "json-server-vercel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "restful",
+    "rest",
+    "api",
+    "vercel",
+    "json",
+    "server"
+  ],
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "json-server": "^1.0.0-alpha.23"
+  }
+}
